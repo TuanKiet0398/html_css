@@ -1,22 +1,4 @@
-<style>
-#heading {
-    font-size: 2em;
-    color: #4CAF50;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    animation: fadeIn 2s ease-in-out;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-</style>
-
-<h1 id="heading">Learning HTML & CSS</h1>
+# Learning HTML & CSS
 
 ## 1. Getting Started
 1. What will you achieve after this course? ✅  
