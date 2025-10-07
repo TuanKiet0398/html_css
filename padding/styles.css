@@ -1,0 +1,31 @@
+html {
+    font-size: 62.5%;
+}
+
+.fb-group {
+    padding: 16px;
+}
+
+.heading {
+    font-size: 2.8rem;
+}
+
+.desc {
+    font-size: 1.6rem;
+}
+
+.button-link {
+    color: #333;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: #333 2px solid;
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+}
+
+.button-link:hover {
+    color: #fff;
+    background-color: #333;
+}
