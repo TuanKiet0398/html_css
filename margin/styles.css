@@ -1,0 +1,42 @@
+* {
+    margin: 32px;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+.content {
+    padding: 16px;
+}
+
+.heading {
+    font-size: 1rem;
+}
+
+.post-item {
+    padding: 12px 14px;
+    border: 2px solid #ccc;
+    margin-bottom: 16px;
+    /* Bo tròn góc 16px */
+    /* border-radius: 16px; */
+}
+
+.post-item .title a {
+    color: #333;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.post-item .desc {
+    font-size: 1.6rem;
+    color: #444;
+    margin-top: 10px;
+}
+
+.post-item .min-read {
+    font-size: 1.4rem;
+    color: #666;
+    margin-top: 12px;
+}
