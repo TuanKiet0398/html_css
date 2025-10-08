@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .calculator {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .calculator input {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .calculator button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .calculator button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Color Calculator</h1>
+        <input type="text" id="color1" placeholder="Enter first color (e.g., red)">
+        <input type="text" id="color2" placeholder="Enter second color (e.g., blue)">
+        <button onclick="mixColors()">Mix Colors</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script>
+        function mixColors() {
+            const color1 = document.getElementById('color1').value;
+            const color2 = document.getElementById('color2').value;
+            const result = document.getElementById('result');
+
+            if (color1 && color2) {
+                result.textContent = `Mixed color of ${color1} and ${color2}`;
+            } else {
+                result.textContent = 'Please enter both colors.';
+            }
+        }
+    </script>
+</body>
+</html>
