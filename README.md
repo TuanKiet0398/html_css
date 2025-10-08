@@ -59,3 +59,16 @@
 48. Pseudo-elements in CSS ✅  
 49. Practicing pseudo-elements ✅  
 50. Learning through questions ✅
+
+---
+
+## 4. Advanced CSS Properties
+51. Padding property ✅
+52. Practice using padding #1 ✅
+53. Practice using padding #2 ✅
+54. Border property ✅
+55. Practice using border #1 ✅
+56. Margin property ✅
+57. Practice using margin #1 ✅
+58. Box-sizing property ✅
+59. Practice using box-sizing ✅
