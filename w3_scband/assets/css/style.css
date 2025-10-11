@@ -19,13 +19,30 @@ html {
     background-color: #000;
 }
 
-#nav {}
+#nav, .subnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 #slider {
+    /* min-height: 800px;
+    background-color: #333; */
 
 }
 
-#nav li {
+#nav > li {
     display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+
 }
 
 #nav li a {
@@ -33,16 +50,37 @@ html {
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
-    display: inline-block;
+    display: block;
 }
 
-#nav li:hover a {
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav > li:hover > a {
     color: #000;
-    background-color: rebeccapurple;
+    background-color: hwb(267 57% 40%);
 }
 
 #nav .subnav {
     display: none;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#nav .subnav a {
+    color: black;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#nav .subnav li:hover {
+    color: #000;
+    background-color: hwb(267 57% 40%);
 }
 
 #content {
