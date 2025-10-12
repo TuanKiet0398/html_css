@@ -1,5 +1,11 @@
 # Learning HTML & CSS
 
+## Demo Screenshot
+
+![Kiet Ho Band Demo](w3_scband/assets/img/slider/slider1.jpg)
+
+*The image above shows the homepage of the Kiet Ho Band website, featuring a modern navigation bar, a striking hero section with a band performance background, and a welcoming introduction to the band experience.*
+
 ## 1. Getting Started
 1. What will you achieve after this course? ✅  
 2. Introduction to HTML and CSS ✅  
