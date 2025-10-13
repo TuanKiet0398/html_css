@@ -3,7 +3,7 @@
 ## Demo Screenshot
 
 ![Kiet Ho Band Demo](w3_scband/assets/img/slider/slider1.jpg)
-![Band Demo](w3_scband/assets/img/slider/image.jpg)
+![Band Demo](w3_scband/assets/img/slider/image.png)
 
 
 
