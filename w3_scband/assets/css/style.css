@@ -334,8 +334,104 @@ html {
 
 .place-buy-btn:hover {
     color: #000;
-    background-color: #fff;
+    background-color: #b2aeae;
 
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.open{
+    display: flex;
+}
+
+
+.modal-container {
+    background: #fefefe;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    position: relative;
+}
+
+.modal-header {
+    background: #009688;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.modal-heading-icon {
+    margin-right: 16px;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:#fff;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    opacity: 0.8;
+    color: #000;
+}
+
+.modal-body {
+    padding: 16px;
+}
+
+.modal-label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.modal-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+#buy-ticket {
+    background: #009688;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+#buy-ticket:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.modal-footer1 {
+    background: #f1f1f1;
+    padding: 12px 16px;
+    text-align: right;
+}
+
+.modal-footer1 a {
+    color: #38b9c4;
 }
 
 
